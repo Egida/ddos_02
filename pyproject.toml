@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "pocket2"
+name = "P0CK3T2"
 version = "0.1.0"
-description = "DDoS Tool"
+description = "ddos_2"
 authors = ["P0CK3T2"]
 readme = "README.md"
 

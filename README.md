@@ -1,4 +1,4 @@
-<h1 align="center"> ddos_02</h1> 
+<h1 align="center"> ddos_2</h1> 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"> 
@@ -11,7 +11,7 @@
   <h2>Windows</h2><br>
 </div>
 
-Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `ddos` <a href="https://github.com/P0CK3T2/ddos/archive/refs/heads/main.zip" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
+Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `ddos_2` <a href="https://github.com/P0CK3T2/ddos_2/archive/refs/heads/main.zip" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
 
   ```
   make setup
@@ -23,7 +23,7 @@ If you don't have it, then execute:
   ```
   curl -sSL https://install.python-poetry.org | python3
   poetry install --without dev
-  poetry run python3 ddos.py
+  poetry run python3 ddos_2.py
   ```
 
   ---
@@ -35,8 +35,8 @@ If you don't have it, then execute:
 ```
 sudo apt update
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/P0CK3T2/ddos
-cd ddos/
+git clone https://github.com/P0CK3T2/ddos_2
+cd ddos_2/
 
 make setup
 make run
@@ -53,11 +53,11 @@ make run
 pkg update
 pkg install python3 python3-pip git -y
 
-git clone https://github.com/P0CK3T2/ddos
+git clone https://github.com/P0CK3T2/ddos_2
 cd ddos/
 
 pip install -r requirements.txt
-python3 ddos.py
+python3 ddos_2.py
 ```
 
 ---

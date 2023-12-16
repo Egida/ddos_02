@@ -36,7 +36,7 @@ def check_method_input() -> str:
             f"{F.RED}│   ├───{F.MAGENTA} [!] {F.BLUE}This attack needs Super User privileges!"
         )
         print(
-            f"{F.RED}│   └───{F.MAGENTA} [!] {F.BLUE}Run: {F.GREEN}sudo {os.popen('which python').read()[:-1]} ddos.py\n{F.RESET}"
+            f"{F.RED}│   └───{F.MAGENTA} [!] {F.BLUE}Run: {F.GREEN}sudo {os.popen('which python').read()[:-1]} ddos_2.py\n{F.RESET}"
         )
         sys.exit(1)
 

@@ -1,7 +1,7 @@
 """This module provides functions to analyze network matters."""
 
 import ipaddress
-import osEther
+import os
 import re
 import socket
 import sys

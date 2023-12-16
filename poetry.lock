@@ -1,5 +1,5 @@
 [[package]]
-name = "astroid"
+name = "P0CK3T2"
 version = "2.12.13"
 description = "An abstract syntax tree for Python with inference support."
 category = "dev"
